@@ -1,0 +1,309 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2023-09-14T01:12:00.604562+00:00",
+  "repo": "ietf-wg-scitt/draft-ietf-scitt-software-use-cases",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOJJL_0M5wjvBq",
+      "title": "Promoter or Re-Distributor",
+      "url": "https://github.com/ietf-wg-scitt/draft-ietf-scitt-software-use-cases/issues/1",
+      "state": "OPEN",
+      "author": "SteveLasker",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Section [3.4. ](https://ietf-wg-scitt.github.io/draft-ietf-scitt-software-use-cases/draft-ietf-scitt-software-use-cases.html#section-3.4)[Promotion of a Software Component by multiple entities](https://ietf-wg-scitt.github.io/draft-ietf-scitt-software-use-cases/draft-ietf-scitt-software-use-cases.html#name-promotion-of-a-software-com) refers to a **Promoter** as an entity. \r\n\r\nIs this the best way to reference an entity that consumes and re-distributes a package? Are they \"promoting\" it, which could suggest advertising or some other means to attract users to consume the specific package? Or, are they \"re-distributing\" a component, and various versions of the component?",
+      "createdAt": "2023-09-08T22:12:42Z",
+      "updatedAt": "2023-09-12T13:10:16Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "OR13",
+          "authorAssociation": "NONE",
+          "body": "Seems like distributor would be a better term",
+          "createdAt": "2023-09-12T13:10:16Z",
+          "updatedAt": "2023-09-12T13:10:16Z"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "I_kwDOJJL_0M5wjyTv",
+      "title": "Air-gap or network isolated network references",
+      "url": "https://github.com/ietf-wg-scitt/draft-ietf-scitt-software-use-cases/issues/2",
+      "state": "OPEN",
+      "author": "SteveLasker",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Section [3.7. ](https://ietf-wg-scitt.github.io/draft-ietf-scitt-software-use-cases/draft-ietf-scitt-software-use-cases.html#section-3.7)[Authentic Software Components in Air-Gapped Infrastructure](https://ietf-wg-scitt.github.io/draft-ietf-scitt-software-use-cases/draft-ietf-scitt-software-use-cases.html#name-authentic-software-componen) uses the term \"air-gapped\" and \"off-line\". While \"air-gapped\" is a common term, it's often used to refer to highly isolated environments. While users are embracing cloud environments, they still wish to maintain network isolation, through virtual private networks. Can/should we reword this section to refer to the more common network isolated environments? The subtle difference between network-isolated and air-gapped is a network-isolated environment may enable ingress/egress rules while an air-gapped environment may implement a data-diode that allows content to go into an environment but the environment can never reach out. (diode = one-way)\r\n",
+      "createdAt": "2023-09-08T22:29:12Z",
+      "updatedAt": "2023-09-12T13:14:54Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "OR13",
+          "authorAssociation": "NONE",
+          "body": "It seems worth while to address the isolation levels since each might have different challenges:\r\n\r\n- software isolation (like browsers have for private keys per origin)  (same device)\r\n- hardware isolation TPM / TEE (same device)\r\n- hardware gapped networks (network of devices)\r\n- software gapped networks / private clouds ( is there a better word for this ? ) (network of devices)\r\n\r\n",
+          "createdAt": "2023-09-12T13:14:54Z",
+          "updatedAt": "2023-09-12T13:14:54Z"
+        }
+      ]
+    }
+  ],
+  "pulls": [
+    {
+      "number": 3,
+      "id": "PR_kwDOJJL_0M5Z6y0i",
+      "title": "Spelling nits and style consistencies",
+      "url": "https://github.com/ietf-wg-scitt/draft-ietf-scitt-software-use-cases/pull/3",
+      "state": "MERGED",
+      "author": "SteveLasker",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Account for nits of punctionation, consistent Title Case usage and consistency with bulleted content.\r\nThis PR does not change the definition or examples of the use cases.",
+      "createdAt": "2023-09-08T22:47:04Z",
+      "updatedAt": "2023-09-12T22:00:09Z",
+      "baseRepository": "ietf-wg-scitt/draft-ietf-scitt-software-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "35e65baa7d5e5345fa9cdf68672e58be5d8a6c73",
+      "headRepository": "SteveLasker/draft-ietf-scitt-software-use-cases",
+      "headRefName": "typos",
+      "headRefOid": "28da3c8151e32c9e8d4db0341200449b0868ae37",
+      "closedAt": "2023-09-12T22:00:03Z",
+      "mergedAt": "2023-09-12T22:00:03Z",
+      "mergedBy": "SteveLasker",
+      "mergeCommit": {
+        "oid": "07c747a4c90083b5d14ed91b72c24591415fed12"
+      },
+      "comments": [
+        {
+          "author": "SteveLasker",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> More then spelling nits & style in `Auditing of Software Product`, but I am okay with the addition.\r\n\r\nThe GitHub UX makes it look more than it is. This is just re-formatting of existing content into bullets. ",
+          "createdAt": "2023-09-12T21:59:34Z",
+          "updatedAt": "2023-09-12T21:59:34Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJJL_0M5grThO",
+          "commit": {
+            "abbreviatedOid": "28da3c8"
+          },
+          "author": "henkbirkholz",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-09-12T10:52:57Z",
+          "updatedAt": "2023-09-12T10:52:58Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "```suggestion\r\n## Verification that Signing Certificate Is Authorized by Supplier\r\n```\r\n\r\nI think we go by a \"everything is lowercase except the first word and proper nouns or verbs\".",
+              "createdAt": "2023-09-12T10:52:57Z",
+              "updatedAt": "2023-09-12T10:53:40Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJJL_0M5grUUB",
+          "commit": {
+            "abbreviatedOid": "28da3c8"
+          },
+          "author": "henkbirkholz",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "More then spelling nits & style in `Auditing of Software Product`, but I am okay with the addition.",
+          "createdAt": "2023-09-12T10:54:52Z",
+          "updatedAt": "2023-09-12T10:55:04Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJJL_0M5gsPdk",
+          "commit": {
+            "abbreviatedOid": "28da3c8"
+          },
+          "author": "OR13",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-09-12T13:06:54Z",
+          "updatedAt": "2023-09-12T13:06:54Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJJL_0M5gwM6O",
+          "commit": {
+            "abbreviatedOid": "28da3c8"
+          },
+          "author": "SteveLasker",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-09-12T21:56:43Z",
+          "updatedAt": "2023-09-12T21:56:43Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "I used: https://capitalizemytitle.com/",
+              "createdAt": "2023-09-12T21:56:43Z",
+              "updatedAt": "2023-09-12T21:56:43Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOJJL_0M5Z69zi",
+      "title": "Add Versioning Use Case ",
+      "url": "https://github.com/ietf-wg-scitt/draft-ietf-scitt-software-use-cases/pull/4",
+      "state": "MERGED",
+      "author": "SteveLasker",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Provides baseline discussion for clarifying [requirements around feeds](https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture/issues/11).  \r\n- See [Refine Definition of Feed #11](https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture/issues/11)",
+      "createdAt": "2023-09-08T23:57:17Z",
+      "updatedAt": "2023-09-12T22:07:11Z",
+      "baseRepository": "ietf-wg-scitt/draft-ietf-scitt-software-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "35e65baa7d5e5345fa9cdf68672e58be5d8a6c73",
+      "headRepository": "SteveLasker/draft-ietf-scitt-software-use-cases",
+      "headRefName": "lasker-use-case-updates",
+      "headRefOid": "6e9564f06fb83dcc640ee5ec4096b093a79a0e4c",
+      "closedAt": "2023-09-12T22:07:10Z",
+      "mergedAt": "2023-09-12T22:07:10Z",
+      "mergedBy": "SteveLasker",
+      "mergeCommit": {
+        "oid": "c822b1222c0765cffe5d01f95a01c52f7e4c49d2"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJJL_0M5grVEz",
+          "commit": {
+            "abbreviatedOid": "6e9564f"
+          },
+          "author": "henkbirkholz",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-09-12T10:56:40Z",
+          "updatedAt": "2023-09-12T10:56:41Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "`statement` drifts in into the scitt terminology a bit. How about\r\n\r\n```suggestion\r\nFor each release, the software producer must be capable of providing assertions, unique to that version.\r\n```",
+              "createdAt": "2023-09-12T10:56:41Z",
+              "updatedAt": "2023-09-12T10:56:41Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJJL_0M5grVu2",
+          "commit": {
+            "abbreviatedOid": "6e9564f"
+          },
+          "author": "henkbirkholz",
+          "authorAssociation": "MEMBER",
+          "state": "CHANGES_REQUESTED",
+          "body": "Minor nits and there is no `There is no standardized way to:` paragraph/subsection included in the proposed use case",
+          "createdAt": "2023-09-12T10:58:18Z",
+          "updatedAt": "2023-09-12T10:59:59Z",
+          "comments": [
+            {
+              "originalPosition": 25,
+              "body": "There is no `There is no standardized way to:` paragraph/subsection.",
+              "createdAt": "2023-09-12T10:58:18Z",
+              "updatedAt": "2023-09-12T10:59:14Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJJL_0M5gsQ4M",
+          "commit": {
+            "abbreviatedOid": "6e9564f"
+          },
+          "author": "OR13",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-09-12T13:09:22Z",
+          "updatedAt": "2023-09-12T13:09:22Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJJL_0M5gwQMO",
+          "commit": {
+            "abbreviatedOid": "6e9564f"
+          },
+          "author": "SteveLasker",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-09-12T22:06:38Z",
+          "updatedAt": "2023-09-12T22:06:38Z",
+          "comments": [
+            {
+              "originalPosition": 25,
+              "body": "I replaced the `Consumers and Producers want:` with `There is no standardized way to:` heading.\r\nWe may want to update this further.",
+              "createdAt": "2023-09-12T22:06:38Z",
+              "updatedAt": "2023-09-12T22:06:38Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
