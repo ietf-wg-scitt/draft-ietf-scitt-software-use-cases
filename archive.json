@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-09-14T01:12:00.604562+00:00",
+  "timestamp": "2023-09-17T01:16:52.478151+00:00",
   "repo": "ietf-wg-scitt/draft-ietf-scitt-software-use-cases",
   "labels": [
     {
@@ -62,7 +62,7 @@
       "labels": [],
       "body": "Section [3.4. ](https://ietf-wg-scitt.github.io/draft-ietf-scitt-software-use-cases/draft-ietf-scitt-software-use-cases.html#section-3.4)[Promotion of a Software Component by multiple entities](https://ietf-wg-scitt.github.io/draft-ietf-scitt-software-use-cases/draft-ietf-scitt-software-use-cases.html#name-promotion-of-a-software-com) refers to a **Promoter** as an entity. \r\n\r\nIs this the best way to reference an entity that consumes and re-distributes a package? Are they \"promoting\" it, which could suggest advertising or some other means to attract users to consume the specific package? Or, are they \"re-distributing\" a component, and various versions of the component?",
       "createdAt": "2023-09-08T22:12:42Z",
-      "updatedAt": "2023-09-12T13:10:16Z",
+      "updatedAt": "2023-09-14T10:49:01Z",
       "closedAt": null,
       "comments": [
         {
@@ -71,6 +71,13 @@
           "body": "Seems like distributor would be a better term",
           "createdAt": "2023-09-12T13:10:16Z",
           "updatedAt": "2023-09-12T13:10:16Z"
+        },
+        {
+          "author": "SteveLasker",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@OR13 to confirm, you're suggesting distributor, as opposed to re-distributor?",
+          "createdAt": "2023-09-14T10:49:00Z",
+          "updatedAt": "2023-09-14T10:49:00Z"
         }
       ]
     },
@@ -86,7 +93,7 @@
       "labels": [],
       "body": "Section [3.7. ](https://ietf-wg-scitt.github.io/draft-ietf-scitt-software-use-cases/draft-ietf-scitt-software-use-cases.html#section-3.7)[Authentic Software Components in Air-Gapped Infrastructure](https://ietf-wg-scitt.github.io/draft-ietf-scitt-software-use-cases/draft-ietf-scitt-software-use-cases.html#name-authentic-software-componen) uses the term \"air-gapped\" and \"off-line\". While \"air-gapped\" is a common term, it's often used to refer to highly isolated environments. While users are embracing cloud environments, they still wish to maintain network isolation, through virtual private networks. Can/should we reword this section to refer to the more common network isolated environments? The subtle difference between network-isolated and air-gapped is a network-isolated environment may enable ingress/egress rules while an air-gapped environment may implement a data-diode that allows content to go into an environment but the environment can never reach out. (diode = one-way)\r\n",
       "createdAt": "2023-09-08T22:29:12Z",
-      "updatedAt": "2023-09-12T13:14:54Z",
+      "updatedAt": "2023-09-14T10:48:09Z",
       "closedAt": null,
       "comments": [
         {
@@ -304,6 +311,76 @@
           ]
         }
       ]
+    },
+    {
+      "number": 5,
+      "id": "PR_kwDOJJL_0M5aTj1g",
+      "title": "I-D polish for -01 submission",
+      "url": "https://github.com/ietf-wg-scitt/draft-ietf-scitt-software-use-cases/pull/5",
+      "state": "MERGED",
+      "author": "henkbirkholz",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [
+        "documentation"
+      ],
+      "body": "Reordered and augmented 'requirements' and 'missing standards' bullet lists.",
+      "createdAt": "2023-09-14T07:02:53Z",
+      "updatedAt": "2023-09-14T10:46:58Z",
+      "baseRepository": "ietf-wg-scitt/draft-ietf-scitt-software-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "e9b3333ccf72ecf712ffae0a5e453a9f65d5d345",
+      "headRepository": "ietf-wg-scitt/draft-ietf-scitt-software-use-cases",
+      "headRefName": "submission-01-prep",
+      "headRefOid": "c3fd88feeaf2bec00999963cd0d4c9bb5269354c",
+      "closedAt": "2023-09-14T10:46:58Z",
+      "mergedAt": "2023-09-14T10:46:58Z",
+      "mergedBy": "SteveLasker",
+      "mergeCommit": {
+        "oid": "968f5d4ee4baea69ea9305d775883911d1a22146"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJJL_0M5g84Ts",
+          "commit": {
+            "abbreviatedOid": "c3fd88f"
+          },
+          "author": "SteveLasker",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "LGTM",
+          "createdAt": "2023-09-14T10:32:04Z",
+          "updatedAt": "2023-09-14T10:32:04Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOJJL_0M5adooe",
+      "title": "fix possible typo",
+      "url": "https://github.com/ietf-wg-scitt/draft-ietf-scitt-software-use-cases/pull/6",
+      "state": "OPEN",
+      "author": "umbellate",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I believe this is a typo, but perhaps I misunderstood the intended meaning.",
+      "createdAt": "2023-09-15T17:44:43Z",
+      "updatedAt": "2023-09-15T17:44:43Z",
+      "baseRepository": "ietf-wg-scitt/draft-ietf-scitt-software-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "968f5d4ee4baea69ea9305d775883911d1a22146",
+      "headRepository": "umbellate/draft-ietf-scitt-software-use-cases",
+      "headRefName": "fix-possible-typo",
+      "headRefOid": "19c1738d863d5444efbcc0de369a80331ac4bd74",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
