@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-09-17T01:16:52.478151+00:00",
+  "timestamp": "2023-09-19T01:14:02.158449+00:00",
   "repo": "ietf-wg-scitt/draft-ietf-scitt-software-use-cases",
   "labels": [
     {
@@ -104,6 +104,22 @@
           "updatedAt": "2023-09-12T13:14:54Z"
         }
       ]
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOJJL_0M5xUwi_",
+      "title": "potential typo with consecutively",
+      "url": "https://github.com/ietf-wg-scitt/draft-ietf-scitt-software-use-cases/issues/7",
+      "state": "OPEN",
+      "author": "umbellate",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "See pull request #6 ",
+      "createdAt": "2023-09-18T16:01:21Z",
+      "updatedAt": "2023-09-18T16:01:21Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
