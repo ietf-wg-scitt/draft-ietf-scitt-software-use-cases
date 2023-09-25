@@ -5,14 +5,14 @@
 Network Working Group                                        H. Birkholz
 Internet-Draft                                            Fraunhofer SIT
 Intended status: Informational                              Y. Deshpande
-Expires: 17 March 2024                                               ARM
+Expires: 28 March 2024                                               ARM
                                                                D. Brooks
                                                                      REA
                                                                R. Martin
                                                                    MITRE
                                                                B. Knight
                                                                Microsoft
-                                                       14 September 2023
+                                                       25 September 2023
 
 
           Detailed Software Supply Chain Uses Cases for SCITT
@@ -57,7 +57,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 17 March 2024.
+   This Internet-Draft will expire on 28 March 2024.
 
 Copyright Notice
 
@@ -431,7 +431,7 @@ Table of Contents
    must succeed.  Compliance and requirement checking includes audits of
    the results of organizational procedures and technical procedures,
    which can originate from checks conducted by the organization itself
-   or checks conducted by trusted third parties.  Consecutively,
+   or checks conducted by trusted third parties.  Consequently,
    consumers of statements about released software can be auditors.
    Examples of procedure results important to audits include:
 
