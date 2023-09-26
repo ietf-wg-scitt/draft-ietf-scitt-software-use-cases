@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-09-19T01:14:02.158449+00:00",
+  "timestamp": "2023-09-26T01:14:00.225918+00:00",
   "repo": "ietf-wg-scitt/draft-ietf-scitt-software-use-cases",
   "labels": [
     {
@@ -110,16 +110,24 @@
       "id": "I_kwDOJJL_0M5xUwi_",
       "title": "potential typo with consecutively",
       "url": "https://github.com/ietf-wg-scitt/draft-ietf-scitt-software-use-cases/issues/7",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "umbellate",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "See pull request #6 ",
       "createdAt": "2023-09-18T16:01:21Z",
-      "updatedAt": "2023-09-18T16:01:21Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2023-09-25T02:48:27Z",
+      "closedAt": "2023-09-25T02:48:27Z",
+      "comments": [
+        {
+          "author": "SteveLasker",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Thanks, @umbellate - merged. ",
+          "createdAt": "2023-09-25T02:48:25Z",
+          "updatedAt": "2023-09-25T02:48:25Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -377,26 +385,50 @@
       "id": "PR_kwDOJJL_0M5adooe",
       "title": "fix possible typo",
       "url": "https://github.com/ietf-wg-scitt/draft-ietf-scitt-software-use-cases/pull/6",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "umbellate",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "I believe this is a typo, but perhaps I misunderstood the intended meaning.",
       "createdAt": "2023-09-15T17:44:43Z",
-      "updatedAt": "2023-09-15T17:44:43Z",
+      "updatedAt": "2023-09-25T02:48:05Z",
       "baseRepository": "ietf-wg-scitt/draft-ietf-scitt-software-use-cases",
       "baseRefName": "main",
       "baseRefOid": "968f5d4ee4baea69ea9305d775883911d1a22146",
       "headRepository": "umbellate/draft-ietf-scitt-software-use-cases",
       "headRefName": "fix-possible-typo",
       "headRefOid": "19c1738d863d5444efbcc0de369a80331ac4bd74",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
-      "reviews": []
+      "closedAt": "2023-09-25T02:48:05Z",
+      "mergedAt": "2023-09-25T02:48:05Z",
+      "mergedBy": "SteveLasker",
+      "mergeCommit": {
+        "oid": "405558480e96aef38b2813bc6fbf82e573b24bb7"
+      },
+      "comments": [
+        {
+          "author": "SteveLasker",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Good catch, @umbellate. Thanks for the PR",
+          "createdAt": "2023-09-25T02:47:30Z",
+          "updatedAt": "2023-09-25T02:47:30Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJJL_0M5h01Ji",
+          "commit": {
+            "abbreviatedOid": "19c1738"
+          },
+          "author": "SteveLasker",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "LGTM",
+          "createdAt": "2023-09-25T02:47:53Z",
+          "updatedAt": "2023-09-25T02:47:53Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
