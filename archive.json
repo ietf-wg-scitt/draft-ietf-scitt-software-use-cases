@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-09-26T01:14:00.225918+00:00",
+  "timestamp": "2023-10-05T01:14:08.051743+00:00",
   "repo": "ietf-wg-scitt/draft-ietf-scitt-software-use-cases",
   "labels": [
     {
@@ -128,6 +128,22 @@
           "updatedAt": "2023-09-25T02:48:25Z"
         }
       ]
+    },
+    {
+      "number": 8,
+      "id": "I_kwDOJJL_0M5yx0R_",
+      "title": "Web content/web applications",
+      "url": "https://github.com/ietf-wg-scitt/draft-ietf-scitt-software-use-cases/issues/8",
+      "state": "OPEN",
+      "author": "simon-friedberger",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Reasonable security for e2e encryption in the browser requires verifying that web applications which are using cryptographic APIs and plaintexts have not been modified.\r\nWhile this seems to be covered by the [architecture](https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/) it might be worth adding an example to ensure that everything is in place. There is related w3c work starting [in this repository](https://github.com/twiss/source-code-transparency/).",
+      "createdAt": "2023-10-04T08:20:54Z",
+      "updatedAt": "2023-10-04T08:20:54Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
