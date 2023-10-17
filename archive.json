@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-10-05T01:14:08.051743+00:00",
+  "timestamp": "2023-10-17T01:14:44.857450+00:00",
   "repo": "ietf-wg-scitt/draft-ietf-scitt-software-use-cases",
   "labels": [
     {
@@ -141,9 +141,17 @@
       "labels": [],
       "body": "Reasonable security for e2e encryption in the browser requires verifying that web applications which are using cryptographic APIs and plaintexts have not been modified.\r\nWhile this seems to be covered by the [architecture](https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/) it might be worth adding an example to ensure that everything is in place. There is related w3c work starting [in this repository](https://github.com/twiss/source-code-transparency/).",
       "createdAt": "2023-10-04T08:20:54Z",
-      "updatedAt": "2023-10-04T08:20:54Z",
+      "updatedAt": "2023-10-16T21:21:34Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "SteveLasker",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Hi @simon-friedberger,\r\nThis would be a great addition to the user-cases. Would you like to make this into a PR? ",
+          "createdAt": "2023-10-16T21:21:34Z",
+          "updatedAt": "2023-10-16T21:21:34Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -445,6 +453,34 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 9,
+      "id": "PR_kwDOJJL_0M5c8rTo",
+      "title": "Formatting updates for submission",
+      "url": "https://github.com/ietf-wg-scitt/draft-ietf-scitt-software-use-cases/pull/9",
+      "state": "MERGED",
+      "author": "SteveLasker",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-10-16T21:16:21Z",
+      "updatedAt": "2023-10-16T21:20:16Z",
+      "baseRepository": "ietf-wg-scitt/draft-ietf-scitt-software-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "405558480e96aef38b2813bc6fbf82e573b24bb7",
+      "headRepository": "SteveLasker/draft-ietf-scitt-software-use-cases",
+      "headRefName": "formatting-updates",
+      "headRefOid": "0c53dec8d6dbd0c11b73ea3871f5dccc2c1e8a5a",
+      "closedAt": "2023-10-16T21:20:16Z",
+      "mergedAt": "2023-10-16T21:20:16Z",
+      "mergedBy": "SteveLasker",
+      "mergeCommit": {
+        "oid": "c047cd4a14956164c2ccb050548fdb78742d5d87"
+      },
+      "comments": [],
+      "reviews": []
     }
   ]
 }
